@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.reedsolomonlab.ReedSolomonTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-10-06T17:32:22" hostname="DESKTOP-0BI7A63" time="0.07">
+  <properties/>
+  <testcase name="mensaje de todo 255" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.014"/>
+  <testcase name="mensaje binario se codifica y decodifica" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.02"/>
+  <testcase name="un error tambien se corrige en la zona de paridad" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="detectar devuelve null para numeros aleatorios" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.001"/>
+  <testcase name="mensaje de todo ceros" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="los sindromes mostrados coinciden con los calculados" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.011"/>
+  <testcase name="tres errores superan la capacidad 2 y se rechazan" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.003"/>
+  <testcase name="palabra valida siempre tiene sindromes cero" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.001"/>
+  <testcase name="error con valor cero y 255" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.001"/>
+  <testcase name="detectar configuracion por defecto desde solo numeros" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="bloque con tamano incorrecto se rechaza" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="varias configuraciones corrigen hasta su capacidad" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.004"/>
+  <testcase name="codificar y decodificar sin errores recupera los datos" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="decodificar bloque con tamano incorrecto se rechaza" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.001"/>
+  <testcase name="la posicion de error mostrada es la real" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.003"/>
+  <testcase name="detectar configuracion no estandar desde solo numeros" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="generador de 4 paridades coincide con el valor conocido" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="mensajes largos se dividen en bloques" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.001"/>
+  <testcase name="decodificar vacio devuelve mensaje de error en espanol" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="simbolos ida y vuelta conservan el orden" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="traza completa recupera el texto con bloques y relleno" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.003"/>
+  <testcase name="el generador mostrado es producto real de raices" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="un error en cualquier posicion se corrige" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.001"/>
+  <testcase name="decodificar longitud no multiplo del bloque devuelve error" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="dos errores dentro de la capacidad se corrigen" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.004"/>
+  <testcase name="mensaje de un solo simbolo" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.0"/>
+  <testcase name="mensaje totalmente aleatorio no se acepta como valido" classname="com.example.reedsolomonlab.ReedSolomonTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

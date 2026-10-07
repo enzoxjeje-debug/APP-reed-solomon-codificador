@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rs_background">#050A18</color>
+    <string name="app_name">RS-COM2026</string>
+    <style name="Theme.ReedSolomonLab" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/rs_background</item>
+        <item name="android:statusBarColor">@color/rs_background</item>
+        <item name="android:navigationBarColor">@color/rs_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,170 @@
+{
+  "app/build.gradle.kts": {
+    "mtime": 1791300258.2802722,
+    "seen": 1791334410.9169888,
+    "ast_hash": "de756ab5fcf387fef97f4a3a37bace9e",
+    "semantic_hash": "de756ab5fcf387fef97f4a3a37bace9e"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/MainActivity.kt": {
+    "mtime": 1791300908.5466065,
+    "seen": 1791334410.9169934,
+    "ast_hash": "47f67c001cf8cfde1dec212197150e02",
+    "semantic_hash": "47f67c001cf8cfde1dec212197150e02"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/ReedSolomonApp.kt": {
+    "mtime": 1791306973.3542848,
+    "seen": 1791334410.916995,
+    "ast_hash": "0f108f1c2b952fc15836742492bfd2fb",
+    "semantic_hash": "0f108f1c2b952fc15836742492bfd2fb"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/audio/SoundManager.kt": {
+    "mtime": 1791300590.4432306,
+    "seen": 1791334410.9169962,
+    "ast_hash": "a8f131090c84ede169a02dca84e0cfa2",
+    "semantic_hash": "a8f131090c84ede169a02dca84e0cfa2"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/data/EducationalStep.kt": {
+    "mtime": 1791300273.2939768,
+    "seen": 1791334410.9169974,
+    "ast_hash": "4272689c934f4ee3bc7f178fc5ade243",
+    "semantic_hash": "4272689c934f4ee3bc7f178fc5ade243"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/data/MessageCodec.kt": {
+    "mtime": 1791306889.0972383,
+    "seen": 1791334410.9169984,
+    "ast_hash": "7009b8aa9b3a8c15773ae6f857bd0990",
+    "semantic_hash": "7009b8aa9b3a8c15773ae6f857bd0990"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/data/RSConfig.kt": {
+    "mtime": 1791300273.29918,
+    "seen": 1791334410.9169993,
+    "ast_hash": "2224991db7c2caf5762591361fe329d7",
+    "semantic_hash": "2224991db7c2caf5762591361fe329d7"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/domain/reedsolomon/GF256.kt": {
+    "mtime": 1791300326.1753259,
+    "seen": 1791334410.9170005,
+    "ast_hash": "c2e699393b813b1113b297d76aecf11c",
+    "semantic_hash": "c2e699393b813b1113b297d76aecf11c"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/domain/reedsolomon/GFPoly.kt": {
+    "mtime": 1791301402.435487,
+    "seen": 1791334410.9170012,
+    "ast_hash": "fcb36a2268f45701de12c2f95528fe46",
+    "semantic_hash": "fcb36a2268f45701de12c2f95528fe46"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/domain/reedsolomon/ReedSolomon.kt": {
+    "mtime": 1791301402.4400012,
+    "seen": 1791334410.9170022,
+    "ast_hash": "89a59b5bf14d3b7db5fd6e410abc3610",
+    "semantic_hash": "89a59b5bf14d3b7db5fd6e410abc3610"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/ui/components/NeonComponents.kt": {
+    "mtime": 1791306744.2848153,
+    "seen": 1791334410.917003,
+    "ast_hash": "128a3d8b4f64658848ea8fcdfaad554d",
+    "semantic_hash": "128a3d8b4f64658848ea8fcdfaad554d"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/ui/components/SymbolComponents.kt": {
+    "mtime": 1791306763.1398594,
+    "seen": 1791334410.9170043,
+    "ast_hash": "f30c3e249c5f6667c014a8d385434d02",
+    "semantic_hash": "f30c3e249c5f6667c014a8d385434d02"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/ui/decoding/DecodingScreen.kt": {
+    "mtime": 1791307919.1593742,
+    "seen": 1791334410.9170053,
+    "ast_hash": "4b59c16f7d88834302661bfd1101cff0",
+    "semantic_hash": "4b59c16f7d88834302661bfd1101cff0"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/ui/encoding/EncodingScreen.kt": {
+    "mtime": 1791306941.9871562,
+    "seen": 1791334410.9170063,
+    "ast_hash": "10e69e4d5d82b34cdb7ee3afbaf5f1a1",
+    "semantic_hash": "10e69e4d5d82b34cdb7ee3afbaf5f1a1"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/ui/info/InfoScreen.kt": {
+    "mtime": 1791307638.5601306,
+    "seen": 1791334410.9170074,
+    "ast_hash": "1890037035bf34667e16e27149cdb323",
+    "semantic_hash": "1890037035bf34667e16e27149cdb323"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/ui/theme/Color.kt": {
+    "mtime": 1791300577.070992,
+    "seen": 1791334410.9170082,
+    "ast_hash": "96c5b3009f3240ba5c36738f670c34b8",
+    "semantic_hash": "96c5b3009f3240ba5c36738f670c34b8"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/ui/theme/Theme.kt": {
+    "mtime": 1791300577.0739975,
+    "seen": 1791334410.917009,
+    "ast_hash": "918f6a21c99dbd6e17a7abe707275993",
+    "semantic_hash": "918f6a21c99dbd6e17a7abe707275993"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/ui/theme/Type.kt": {
+    "mtime": 1791300577.077509,
+    "seen": 1791334410.91701,
+    "ast_hash": "f48d7e00887279b26fde7ecb1c1a2fa6",
+    "semantic_hash": "f48d7e00887279b26fde7ecb1c1a2fa6"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/viewmodel/AppViewModel.kt": {
+    "mtime": 1791307906.9214444,
+    "seen": 1791334410.917011,
+    "ast_hash": "4632d6f47985fd785752b2316bb225a7",
+    "semantic_hash": "4632d6f47985fd785752b2316bb225a7"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/viewmodel/DecodingViewModel.kt": {
+    "mtime": 1791307896.6788595,
+    "seen": 1791334410.917012,
+    "ast_hash": "2313ddbc43f058b077471b47bfed8244",
+    "semantic_hash": "2313ddbc43f058b077471b47bfed8244"
+  },
+  "app/src/main/java/com/example/reedsolomonlab/viewmodel/EncodingViewModel.kt": {
+    "mtime": 1791300616.5891767,
+    "seen": 1791334410.9170127,
+    "ast_hash": "c82b85b25f10d8daf718ed1bff72b785",
+    "semantic_hash": "c82b85b25f10d8daf718ed1bff72b785"
+  },
+  "app/src/test/java/com/example/reedsolomonlab/CodecTest.kt": {
+    "mtime": 1791306988.9042983,
+    "seen": 1791334410.9170136,
+    "ast_hash": "b74b4378876cf29b4dfddf6f1efe4eaf",
+    "semantic_hash": "b74b4378876cf29b4dfddf6f1efe4eaf"
+  },
+  "app/src/test/java/com/example/reedsolomonlab/GF256Test.kt": {
+    "mtime": 1791300527.5206532,
+    "seen": 1791334410.9170153,
+    "ast_hash": "6a76a2310e933b56ac0e1a331da90ca6",
+    "semantic_hash": "6a76a2310e933b56ac0e1a331da90ca6"
+  },
+  "app/src/test/java/com/example/reedsolomonlab/ReedSolomonTest.kt": {
+    "mtime": 1791307057.1434946,
+    "seen": 1791334410.9170163,
+    "ast_hash": "0084bbd2870e14389f59040bc3b512d1",
+    "semantic_hash": "0084bbd2870e14389f59040bc3b512d1"
+  },
+  "build.gradle.kts": {
+    "mtime": 1791300258.2722013,
+    "seen": 1791334410.917017,
+    "ast_hash": "1655c7d9686d9fdedc064c40603293fd",
+    "semantic_hash": "1655c7d9686d9fdedc064c40603293fd"
+  },
+  "gradlew": {
+    "mtime": 1791301043.851167,
+    "seen": 1791334410.9170182,
+    "ast_hash": "1db6d150e9a9442ca929c1fa8b2fd25e",
+    "semantic_hash": "1db6d150e9a9442ca929c1fa8b2fd25e"
+  },
+  "settings.gradle.kts": {
+    "mtime": 1791300240.7793674,
+    "seen": 1791334410.9170191,
+    "ast_hash": "7f38e2e5a966c76df023f8c09e3b5171",
+    "semantic_hash": "7f38e2e5a966c76df023f8c09e3b5171"
+  },
+  "README.md": {
+    "mtime": 1791307018.1988816,
+    "seen": 1791334410.9170198,
+    "ast_hash": "5149cb5a3c4640f442f72b0a02c71afa",
+    "semantic_hash": "5149cb5a3c4640f442f72b0a02c71afa"
+  }
+}

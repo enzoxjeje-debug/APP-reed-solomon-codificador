@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.reedsolomonlab.CodecTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-10-06T17:32:22" hostname="DESKTOP-0BI7A63" time="0.072">
+  <properties/>
+  <testcase name="binario rechaza entrada vacia" classname="com.example.reedsolomonlab.CodecTest" time="0.019"/>
+  <testcase name="cabecera antigua RS1 sigue aceptandose por compatibilidad" classname="com.example.reedsolomonlab.CodecTest" time="0.017"/>
+  <testcase name="texto vacio da cero simbolos" classname="com.example.reedsolomonlab.CodecTest" time="0.0"/>
+  <testcase name="binario continuo multiplo de 8" classname="com.example.reedsolomonlab.CodecTest" time="0.003"/>
+  <testcase name="binario con espacios se interpreta byte a byte" classname="com.example.reedsolomonlab.CodecTest" time="0.001"/>
+  <testcase name="lista de simbolos rechaza texto" classname="com.example.reedsolomonlab.CodecTest" time="0.003"/>
+  <testcase name="lista de simbolos rechaza valores fuera de rango" classname="com.example.reedsolomonlab.CodecTest" time="0.001"/>
+  <testcase name="binario rechaza caracteres invalidos" classname="com.example.reedsolomonlab.CodecTest" time="0.006"/>
+  <testcase name="configuracion rechaza paridad impar" classname="com.example.reedsolomonlab.CodecTest" time="0.0"/>
+  <testcase name="binario rechaza tira no multiplo de 8" classname="com.example.reedsolomonlab.CodecTest" time="0.0"/>
+  <testcase name="detector de listas de simbolos" classname="com.example.reedsolomonlab.CodecTest" time="0.002"/>
+  <testcase name="mensaje copiable es solo numeros sin cabecera" classname="com.example.reedsolomonlab.CodecTest" time="0.013"/>
+  <testcase name="texto hola mundo a simbolos" classname="com.example.reedsolomonlab.CodecTest" time="0.0"/>
+  <testcase name="simbolos a texto inverso" classname="com.example.reedsolomonlab.CodecTest" time="0.0"/>
+  <testcase name="binario rechaza grupos que no son de 8 bits" classname="com.example.reedsolomonlab.CodecTest" time="0.003"/>
+  <testcase name="lista de simbolos con espacios y comas" classname="com.example.reedsolomonlab.CodecTest" time="0.001"/>
+  <testcase name="simbolos a binario" classname="com.example.reedsolomonlab.CodecTest" time="0.001"/>
+  <testcase name="configuracion rechaza bloque mayor de 255" classname="com.example.reedsolomonlab.CodecTest" time="0.0"/>
+  <testcase name="configuracion rechaza datos cero" classname="com.example.reedsolomonlab.CodecTest" time="0.0"/>
+  <testcase name="cabecera con configuracion invalida se rechaza" classname="com.example.reedsolomonlab.CodecTest" time="0.001"/>
+  <testcase name="configuracion por defecto 8 mas 4 corrige 2" classname="com.example.reedsolomonlab.CodecTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

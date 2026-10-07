@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.reedsolomonlab.app-debug-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.reedsolomonlab.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.reedsolomonlab.app-debug-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.reedsolomonlab.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.reedsolomonlab.app-debug-52:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.reedsolomonlab.app-main-54:/drawable/ic_launcher_foreground.xml"
+    }
+]
