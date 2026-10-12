@@ -4,6 +4,9 @@ Laboratorio educativo e interactivo para aprender, codificar, decodificar, detec
 corregir errores con el algoritmo **Reed-Solomon**. Aplicación Android nativa en **Kotlin**,
 **Jetpack Compose** y **Material 3**, completamente en español.
 
+> 📲 **¿Solo querés instalarla?** El APK listo está en la raíz: `RS-COM2026-v1.0.apk`
+> (Android 8.0+, sin permisos especiales). Ver [sección 5](#5-apk-exportado-ubicación-instalación-y-compilación).
+
 ---
 
 ## 1. ¿Qué es Reed-Solomon?
@@ -100,12 +103,18 @@ com.example.reedsolomonlab
 
 ## 5. APK exportado: ubicación, instalación y compilación
 
-### APK ya generado ✅
+### 📲 APK listo para instalar ✅
 
-El APK de depuración se encuentra en:
+El APK está copiado en la **raíz del repositorio** para búsqueda e instalación rápida:
 
 ```text
-app/build/outputs/apk/debug/app-debug.apk   (~17 MB, v1.0, com.example.reedsolomonlab)
+RS-COM2026-v1.0.apk   (~17 MB, v1.0, com.example.reedsolomonlab)
+```
+
+Copia idéntica del APK de depuración generado por Gradle en:
+
+```text
+app/build/outputs/apk/debug/app-debug.apk
 ```
 
 Requiere **Android 8.0 (API 26) o superior**. No pide permisos especiales.
@@ -115,10 +124,10 @@ Requiere **Android 8.0 (API 26) o superior**. No pide permisos especiales.
 **Opción A — por USB con adb** (depuración USB activada en el móvil):
 
 ```bash
-adb install -r app/build/outputs/apk/debug/app-debug.apk
+adb install -r RS-COM2026-v1.0.apk
 ```
 
-**Opción B — copiando el archivo**: pasá `app-debug.apk` al celular (USB, Drive, WhatsApp…),
+**Opción B — copiando el archivo**: pasá `RS-COM2026-v1.0.apk` al celular (USB, Drive, WhatsApp…),
 abrilo desde el administrador de archivos y aceptá “instalar apps desconocidas” cuando
 Android lo pida.
 
