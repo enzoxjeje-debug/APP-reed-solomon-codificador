@@ -2,10 +2,7 @@
 
 Laboratorio educativo e interactivo para aprender, codificar, decodificar, detectar y
 corregir errores con el algoritmo **Reed-Solomon**. Aplicación Android nativa en **Kotlin**,
-**Jetpack Compose** y **Material 3**, completamente en español.
-
-> 📲 **¿Solo querés instalarla?** El APK listo está en la raíz: `RS-COM2026-v1.0.apk`
-> (Android 8.0+, sin permisos especiales). Ver [sección 5](#5-apk-exportado-ubicación-instalación-y-compilación).
+**Jetpack Compose** y **Material 3**.
 
 ---
 
