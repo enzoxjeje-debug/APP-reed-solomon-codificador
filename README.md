@@ -4,6 +4,10 @@ Laboratorio educativo e interactivo para aprender, codificar, decodificar, detec
 corregir errores con el algoritmo **Reed-Solomon**. Aplicación Android nativa en **Kotlin**,
 **Jetpack Compose** y **Material 3**.
 
+> 📘 ¿Cómo funciona por dentro? Mirá [COMO-FUNCIONA.md](COMO-FUNCIONA.md):
+> codificador, decodificador, corrección de errores, y lenguaje y
+> programa con el que se compiló el APK.
+
 ---
 
 ## 1. ¿Qué es Reed-Solomon?
