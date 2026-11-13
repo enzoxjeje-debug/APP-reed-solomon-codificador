@@ -109,7 +109,7 @@ com.example.reedsolomonlab
 El APK está copiado en la **raíz del repositorio** para búsqueda e instalación rápida:
 
 ```text
-RS-COM2026-v1.0.apk   (~17 MB, v1.0, com.example.reedsolomonlab)
+RS-COM2026-v1.0.0.apk   (~17 MB, v1.0, com.example.reedsolomonlab)
 ```
 
 Copia idéntica del APK de depuración generado por Gradle en:
@@ -120,17 +120,11 @@ app/build/outputs/apk/debug/app-debug.apk
 
 Requiere **Android 8.0 (API 26) o superior**. No pide permisos especiales.
 
-### Instalarlo en el celular (2 opciones)
+### Instalarlo en el celular
 
-**Opción A — por USB con adb** (depuración USB activada en el móvil):
-
-```bash
-adb install -r RS-COM2026-v1.0.apk
-```
-
-**Opción B — copiando el archivo**: pasá `RS-COM2026-v1.0.apk` al celular (USB, Drive, WhatsApp…),
-abrilo desde el administrador de archivos y aceptá “instalar apps desconocidas” cuando
-Android lo pida.
+La única forma de instalar la app es con el archivo APK: pasá `RS-COM2026-v1.0.0.apk` al celular
+(por cable, Drive, WhatsApp…), abrilo desde el administrador de archivos y aceptá “instalar apps
+desconocidas” cuando Android lo pida.
 
 ### Compilarlo desde cero
 
@@ -143,13 +137,11 @@ Requisitos: **JDK 17** y **Android SDK** (platform 34 + build-tools 34).
 # 2. Generar el APK de depuración
 ./gradlew :app:assembleDebug
 # El APK sale en: app/build/outputs/apk/debug/app-debug.apk
-
-# 3. Instalar en el móvil (depuración USB activada)
-adb install -r app/build/outputs/apk/debug/app-debug.apk
 ```
 
 Con **Android Studio**: *File → Open* sobre esta carpeta, esperá la sincronización de
-Gradle y pulsá ▶ *Run* (o *Build → Build APK(s)* para generarlo sin instalar).
+Gradle y usá *Build → Build APK(s)* para generar el APK; después copialo al teléfono y
+instalalo como cualquier otro APK.
 
 > El APK de depuración (`debug`) está firmado automáticamente con la clave de debug,
 > así que se instala directo. Un APK `release` para publicar requeriría firma propia
